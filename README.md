@@ -20,10 +20,7 @@ It features a floating strawberry logo with sparkling effects and an attractive 
 
 ## 🚀 Live Demo
 
-(After enabling GitHub Pages, paste your live link here)
-
-Example:  
-https://yourusername.github.io/sweetberry-shop/
+https://Raj-Venkat-R.github.io/sweetberry-shop/
 
 ---
 
