@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SweetBerry Shop</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ffccd5, #ffe6eb);
+            overflow: hidden;
+        }
+
+        /* Floating animation */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .logo {
+            animation: float 3s ease-in-out infinite;
+            margin-top: 50px;
+        }
+
+        /* Sparkle animation */
+        @keyframes sparkle {
+            0% { opacity: 0.2; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.5); }
+            100% { opacity: 0.2; transform: scale(1); }
+        }
+
+        .sparkle {
+            position: absolute;
+            font-size: 30px;
+            animation: sparkle 2s infinite;
+            color: gold;
+        }
+
+        h1 {
+            color: #cc0033;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #cc0033;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #990033;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>🍓 SweetBerry Shop 🍓</h1>
+
+    <!-- Sparkles -->
+    <div class="sparkle" style="top:150px; left:40%;">✨</div>
+    <div class="sparkle" style="top:250px; left:60%; animation-delay:1s;">✨</div>
+    <div class="sparkle" style="top:200px; left:30%; animation-delay:0.5s;">✨</div>
+    <div class="sparkle" style="top:300px; left:70%; animation-delay:1.5s;">✨</div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="Strawberry.png" width="250">
+    </div>
+
+    <h2 style="color:#990033;">The Sweetest Strawberry Experience!</h2>
+
+    <p style="font-size:18px; color:#660022;">
+        Fresh shakes • Cakes • Desserts • Special treats
+    </p>
+
+    <h3 style="color:#ff0033;">🎉 20% OFF Grand Opening 🎉</h3>
+
+    <button>Order Now</button>
+
+</body>
+</html>
